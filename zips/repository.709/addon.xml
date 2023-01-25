@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.709" name=" The[COLOR darkviolet][B]7o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
+<addon id="repository.709" name=" The[COLOR grey][B]7o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
     <extension point="xbmc.addon.repository" name="The7o9Repo">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml</info>
