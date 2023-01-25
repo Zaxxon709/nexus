@@ -10,7 +10,7 @@
 </ul>
 
 ### 709 Nexus Repository
-[![Download Repo](https://img.shields.io/badge/Download-Repo-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/Zaxxon709/nexus/main/repository.709-1.3.zip)
+[![Download Repo](https://img.shields.io/badge/Download-Repo-blue.svg?style=for-the-badge)](https://raw.githubusercontent.com/Zaxxon709/nexus/main/repository.709-1.0.zip)
 
 
 
@@ -28,7 +28,7 @@
 
 <ul>
     <li>Open Kodi Settings and go to Add-Ons. Then select "Install from zip file"</li>
-    <li>From the available list of sources, select "709Repo", and install the Nexus repository "repository.709-1.3.zip"</li>
+    <li>From the available list of sources, select "709Repo", and install the Nexus repository "repository.709-1.0.zip"</li>
 </ul>
 
 
