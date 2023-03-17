@@ -116,7 +116,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.myauth" name="myauthact" version="1.0.2" provider-name="Zaxxon709, drinferno">
+<addon id="script.module.myauth" name="myauthact" version="1.0.3" provider-name="Zaxxon709, drinferno">
     <extension point="xbmc.python.pluginsource" library="default.py">
     <extension point="xbmc.addon.metadata">
     </extension>
