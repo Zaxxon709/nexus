@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.709DVwiz" name="[COLOR gray][B]7o9[/B][/COLOR]Wizard DV" version="99.4.0" provider-name="Slam, Sarge, Funsterbe, BYB">
+<addon id="plugin.program.709DVwiz" name="[COLOR gray][B]7o9[/B][/COLOR]Wizard DV" version="99.4.2" provider-name="Slam, Sarge, Funsterbe, BYB">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" optional="true" />
