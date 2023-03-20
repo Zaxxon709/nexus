@@ -92,11 +92,11 @@
     </extension>
 </addon>
 
-<addon id="script.module.myaccts" version="1.1.5" name="Debrid Manager" provider-name="Zaxxon709, Ezra Hubbard">
+<addon id="script.module.myaccts" version="1.1.6" name="Debrid Manager" provider-name="Zaxxon709, Ezra Hubbard">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
-            <import addon="script.module.myauth" version="1.0.3" />
+            <import addon="script.module.myauth" version="1.0.4" />
 	</requires>
 	<extension point="xbmc.python.script" library="lib/default.py">
 		<provides>executable</provides>
@@ -116,7 +116,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.myauth" name="myauthact" version="1.0.3" provider-name="Zaxxon709, drinferno">
+<addon id="script.module.myauth" name="myauthact" version="1.0.4" provider-name="Zaxxon709, drinferno">
     <extension point="xbmc.python.pluginsource" library="default.py">
     <extension point="xbmc.addon.metadata">
     </extension>
