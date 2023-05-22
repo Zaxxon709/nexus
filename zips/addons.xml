@@ -92,7 +92,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.myaccts" version="2.0.5" name="Account Manager" provider-name="Zaxxon709">
+<addon id="script.module.myaccts" version="2.0.6" name="Account Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -117,7 +117,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.myauth" name="myauthact" version="2.0.4" provider-name="Zaxxon709">
+<addon id="script.module.myauth" name="myauthact" version="2.0.5" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     <extension point="xbmc.addon.metadata">
     </extension>
