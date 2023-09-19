@@ -130,7 +130,7 @@
     </extension>
 </addon>
 
-<addon id="script.module.maxql" name="MaxQL" version="1.0.7" provider-name="Zaxxon709">
+<addon id="script.module.maxql" name="MaxQL" version="1.0.8" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -138,8 +138,8 @@
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Max Resolution Editor</summary>
-		<description lang="en_GB">Set supported add-ons to either 1080P or 4K max</description>
+		<summary lang="en_GB">Add-on Filter Editor</summary>
+		<description lang="en_GB">Enable/Disable add-on filters</description>
 		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
 		<language>en</language>
 		<platform>all</platform>
@@ -149,9 +149,10 @@
 		<email></email>
 		<source></source>
 		<news>
-1.0.7 - Added Coalition and Absolution. Removed The Promise
-1.0.6 - Added chains genocide and Quicksilver.
-1.0.5 - Initial Release.
+			1.0.8 - Added support for DV and 3D settings. Added Patriot, Black Lightning and 9-Lives.
+			1.0.7 - Added Coalition and Absolution. Removed The Promise.
+			1.0.6 - Added chains genocide and Quicksilver.
+			1.0.5 - Initial Release.
 		</news>
 		<assets>
 			<icon>icon.png</icon>
