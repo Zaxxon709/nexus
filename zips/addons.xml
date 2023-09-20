@@ -149,6 +149,7 @@
 		<email></email>
 		<source></source>
 		<news>
+			1.0.9 - Fixed bug preventing Umbrella 3D from being disabled.
 			1.0.8 - Added support for DV and 3D settings. Added Patriot, Black Lightning and 9-Lives.
 			1.0.7 - Added Coalition and Absolution. Removed The Promise.
 			1.0.6 - Added chains genocide and Quicksilver.
