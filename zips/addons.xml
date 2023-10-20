@@ -72,7 +72,27 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.accountmgr" version="2.3.5" name="Account Manager" provider-name="Zaxxon709">
+<addon id="repository.709" name=" The[COLOR gray][B]7o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
+    <extension point="xbmc.addon.repository" name="The7o9Repo">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>The 7o9Repo</summary>
+        <description>7o9 Repository</description>
+        <disclaimer></disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="script.module.accountmgr" version="2.3.4" name="Account Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
@@ -97,27 +117,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.709" name=" The[COLOR gray][B]7o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
-    <extension point="xbmc.addon.repository" name="The7o9Repo">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/</datadir>
-        </dir>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary>The 7o9Repo</summary>
-        <description>7o9 Repository</description>
-        <disclaimer></disclaimer>
-        <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-    </extension>
-</addon>
-
-<addon id="script.module.acctview" name="acctviewer" version="2.2.1" provider-name="Zaxxon709">
+<addon id="script.module.acctview" name="acctviewer" version="2.2.0" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
