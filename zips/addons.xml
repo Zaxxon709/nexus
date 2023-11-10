@@ -146,8 +146,8 @@
 		<import addon="script.module.requests" version="2.19.1" />
             	<import addon="script.module.acctview" version="2.2.5" />
 	</requires>
-	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 	<extension point="xbmc.python.script" library="lib/default.py">
+	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.python.module" library="lib" />
