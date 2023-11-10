@@ -1,62 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709DVwiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard DV" version="99.5.4" provider-name="Slam, Sarge, Funsterbe, BYB">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">7o9's lightweight Dolby Vision Wizard</summary>
-		<description lang="en_GB">Kodi Dolby Vision Build Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news></news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="99.5.5" provider-name="Slam, Sarge, Funsterbe, BYB">
-	<requires>
-		<import addon="xbmc.python" version="3.0.1"/>
-		<import addon="script.module.requests" optional="true" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">7o9's lightweight Wizard</summary>
-		<description lang="en_GB">Kodi Build Wizard</description>
-		<disclaimer lang="en_GB">This Addon contains no content</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news></news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="plugin.program.maxql" name="MaxQL" version="1.1.1" provider-name="Zaxxon709">
+<addon id="plugin.program.maxql" name="MaxQL" version="99.1.1" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -90,7 +34,7 @@
 	</extension>
 </addon>
 
-<addon id="plugin.program.pchger" name="Player Helper" version="1.0.2" provider-name="Zaxxon709">
+<addon id="plugin.program.pchger" name="Player Helper" version="99.0.2" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -109,9 +53,9 @@
 		<email></email>
 		<source></source>
 		<news>
-			1.0.2 - Minor bug fixes.
-			1.0.1 - Cleaned up code.
-			1.0.0 - Initial Release.
+			99.0.2 - Minor bug fixes.
+			99.0.1 - Cleaned up code.
+			99.0.0 - Initial Release.
 		</news>
 		<assets>
 			<icon>icon.png</icon>
@@ -120,17 +64,17 @@
 	</extension>
 </addon>
 
-<addon id="repository.709" name=" The[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Repo" version="1.0.1" provider-name="Zaxxon709">
-    <extension point="xbmc.addon.repository" name="The7o9Repo">
+<addon id="repository.909" name=" The[COLOR blue][B]9o9[/B][/COLOR]Repo" version="1.0" provider-name="Zaxxon709">
+    <extension point="xbmc.addon.repository" name="The9o9Repo">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/nexus/master/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/Zaxxon709/909repo/main/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Zaxxon709/909repo/main/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Zaxxon709/909repo/main/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>The 7o9Repo</summary>
-        <description>7o9 Repository</description>
+        <summary>The 9o9Repo</summary>
+        <description>Build Specific Add-ons Repository for 7o9</description>
         <disclaimer></disclaimer>
         <platform>all</platform>
         <assets>
@@ -140,11 +84,11 @@
     </extension>
 </addon>
 
-<addon id="script.module.accountmgr" version="2.3.9" name="Account Manager" provider-name="Zaxxon709">
+<addon id="script.module.accountmgr" version="99.3.9" name="Account Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
-            	<import addon="script.module.acctview" version="2.2.5" />
+            	<import addon="script.module.acctview" version="99.2.5" />
 	</requires>
 	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 	<extension point="xbmc.python.script" library="lib/default.py">
@@ -165,7 +109,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.acctview" name="acctviewer" version="2.2.5" provider-name="Zaxxon709">
+<addon id="script.module.acctview" name="acctviewer" version="99.2.5" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
