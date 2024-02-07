@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="99.5.8" provider-name="Slam, Sarge, Funsterbe, BYB">
+<addon id="plugin.program.709wiz" name="[COLOR FF0C5EB4][B]7o9[/B][/COLOR]Wizard" version="99.5.7" provider-name="Slam, Sarge, Funsterbe, BYB">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" optional="true" />
@@ -84,11 +84,11 @@
     </extension>
 </addon>
 
-<addon id="script.module.accountmgr" version="2.4.5" name="Account Manager" provider-name="Zaxxon709">
+<addon id="script.module.accountmgr" version="2.4.6" name="Account Manager" provider-name="Zaxxon709">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.19.1" />
-            	<import addon="script.module.acctview" version="2.3.0" />
+            	<import addon="script.module.acctview" version="2.3.1" />
 	</requires>
 	<extension point="xbmc.service" library="lib/startup.py" start="startup" />
 	<extension point="xbmc.python.script" library="lib/default.py">
@@ -109,7 +109,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.acctview" name="acctviewer" version="2.3.0" provider-name="Zaxxon709">
+<addon id="script.module.acctview" name="acctviewer" version="2.3.1" provider-name="Zaxxon709">
     <extension point="xbmc.python.pluginsource" library="default.py">
     </extension>
     <extension point="xbmc.python.module" library="resources" />
